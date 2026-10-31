@@ -1,0 +1,45 @@
+/* src/assets/global.css */
+:root {
+  /* Background Colors */
+  --bg-space: #0B0C10; /* Hitam pekat kebiruan untuk latar angkasa */
+  --bg-polaroid: #FAFAFA; /* Putih tulang untuk kertas foto */
+
+  /* Pink Accents */
+  --neon-pink: #FF1493; /* Warna hujan kode matrix */
+  --neon-pink-glow: rgba(255, 20, 147, 0.6); /* Efek cahaya */
+  --soft-pink: #FFB6C1; /* Aksen romantis tambahan */
+
+  /* Text Colors */
+  --text-dark: #202020; /* Teks di atas kertas polaroid */
+  --text-light: #FFFFFF; /* Teks di latar hitam */
+
+  /* Font Families */
+  --font-matrix: 'VT323', monospace;
+  --font-romantic: 'Dancing Script', cursive;
+  --font-ui: 'Poppins', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-space);
+  color: var(--text-light);
+  font-family: var(--font-ui);
+  overflow: hidden; /* Mencegah halaman bisa di-scroll, karena ini timeline flow */
+}
+
+/* Base class untuk setiap fase agar memenuhi layar penuh */
+.phase-section {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
