@@ -101,7 +101,6 @@ const TRACKS = {
   surprise: {
     src: "/audio/lagu.mp3", // GANTI dengan nama file lagu surprise-mu
     start: mmss(2, 13),
-    end: mmss(3, 50),
     end: null,
     volume: 0.5,
   },
