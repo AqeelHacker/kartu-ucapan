@@ -118,7 +118,7 @@ import { ref, onMounted, onBeforeUnmount } from 'vue'
 const emit = defineEmits(['play-music', 'unlocked'])
 
 /* ================= EDIT DI SINI ================= */
-const SECRET_CODE = '310826' // sandi
+const SECRET_CODE = '300827' // sandi
 const KEY_SFX_SRC = '/audio/beep.mp3' // sound effect saat tombol ditekan (ganti nama file sesuai punyamu)
 const KEY_SFX_VOLUME = 0.6 // 0 - 1
 const ANGRY_TEXT = "Why did you press that? Don't you want to see the surprise? 😡"
